@@ -1,0 +1,169 @@
+{
+    "fonts": {
+        "Bold": "Nunito-Bold",
+        "Regular": "Nunito-Regular"
+    },
+    "buttons": {
+        "large": {
+            "container": {
+                "backgroundColor": "#2A2A2A",
+                "width": "100%",
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "space-evenly",
+                "alignItems": "center",
+                "alignSelf": "center",
+                "alignContent": "center"
+              },
+              "button": {
+                "backgroundColor": "#2A2A2A",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "color": "#FFFFFF"
+              }
+        },
+        "small": {
+            "container": {
+                "width": "100%",
+                "flexDirection": "row",
+                "height": 20,
+                "justifyContent": "space-evenly",
+                "alignItems": "center",
+                "alignSelf": "center",
+                "alignContent": "center"
+              },
+              "button": {
+                "fontSize": 12,
+                "color": "#324755"
+              }
+        }
+    },
+    "borders": {
+        "main": {
+            "borderWidth": 1,
+            "borderRadius": 20,
+            "borderStyle": "solid",
+            "borderColor": "#D8DAE0"
+          },
+          "meduim": {
+            "borderWidth": 2,
+            "borderRadius": 20,
+            "borderStyle": "solid",
+            "borderColor": "#D8DAE0"
+        }
+    },
+    "colors": {
+        "icons": "#A1721C",
+        "header": "#2A2A2A",
+        "opacity": "rgba(255, 255, 255, 0.4)",
+        "white": "#FFFFFF",
+        "error": "#FF0033",
+        "button": "#324755",
+        "black": "#000000",
+        "grey": "#3C3C3C",
+        "grey100": "#C8C8C8",
+        "primary": "#20252E",
+        "sec_dark": "#1b1c20",
+        "light_grey": "#f0f3f4",
+        "progress": "#6b64ff",
+        "light_blue": "#186edb",
+        "warning": "#cc9900",
+        "secondary": "#20252E",
+        "transparent": "rgba(52, 52, 52, 0.8)",
+        "blue": "#4285f4",
+        "success": "#2f9f88",
+        "danger": "#cc4d41",
+        "fullTrans": "rgba(52, 52, 52, 0)"
+    },
+    "typo": {
+        "verySmall": {
+            "fontSize": 9,
+            "fontWeight": "bold",
+            "fontFamily": "Nunito-Bold"
+        },
+        "little": {
+            "fontSize": 7,
+            "fontWeight": "bold",
+            "fontFamily": "Nunito-Regular"
+        },
+        "small": {
+            "fontSize": 12,
+            "fontWeight": "100",
+            "fontFamily": "Nunito-Regular"
+        },
+        "meduim": {
+            "fontSize": 15,
+            "fontWeight": "400",
+            "fontFamily": "Nunito-Regular"
+        },
+        "res": {
+            "fontSize": 18,
+            "fontWeight": "600",
+            "fontFamily": "Nunito-Regular"
+        },
+        "large_r": {
+          "fontSize": 24,
+          "fontWeight": "600",
+          "fontFamily": "Nunito-Regular"
+        },
+        "big": {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "fontFamily": "Nunito-Bold"
+        },
+        "veryBig": {
+            "fontSize": 32,
+            "fontWeight": "bold",
+            "fontFamily": "Nunito-Bold"
+        },
+       
+        "large": {
+            "largeFontSize": 24,
+            "largeFontWeight": "600",
+            "fontFamily": "Nunito-Bold"
+        }
+        
+    },
+    "colorA0": "#95ADFB",
+    "colorA1": "rgba(0, 0, 0, 0.5)",
+    "colorA2": "rgb(50, 71, 85)",
+    "colorA3": "rgba(0, 0, 0, 0.16)",
+    "colorA4": "rgb(240, 243, 244)",
+    "colorA5": "rgb(185, 176, 162)",
+    "colorA6": "rgb(27, 28, 32)",
+    "colorA7": "rgb(110, 140, 160)",
+    "colorA8": "rgb(34, 30, 81)",
+    "colorA9": "rgb(120, 132, 158)",
+    "colorA10": "rgb(200, 209, 211)",
+    "colorA11": "rgb(87, 115, 255)",
+
+    "white": "#FFFFFF",
+    "grey": "#3C3C3C",
+    "grey1": "#C8C8C8",
+
+    
+    "appMarginTop": 23,
+    "spacing": 20,
+   
+    "veryBigFontSize": 32,
+    "largeFontSize": 24,
+    "bigFontSize": 18,
+    "meduimFontSize": 15,
+    "smallFontSize": 12,
+    "verySmallFontSize": 9,
+
+    "veryBigFontWeight": "bold",
+    "bigFontWeight": "700",
+    "meduimFontWeight": "400",
+    "smallFontWeight": "100",
+    "status_bar": {
+        "barStyle": "dark-content", 
+        "hidden": false,
+        "backgroundColor": "#fff",
+        "translucent": true
+    },
+    "itemDimension": 100,
+    "itemBorderRadius": 10,
+    "itemBorderWidth": 0.25,
+    "itemOpacity": 0.5
+}

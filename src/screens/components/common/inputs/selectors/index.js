@@ -1,0 +1,10 @@
+import {lazy} from 'react';
+export const select = lazy(()=>import('./select'))
+export const slider = lazy(()=>import('./range'))
+export const rate = lazy(()=>import('./slider'))
+export const buttons = lazy(()=>import('./buttons'))
+export const list = lazy(()=>import('./list'))
+export const image = lazy(()=>import('./image-picker'))
+export const date = lazy(()=>import('./date'))
+// export const rangeSlider = lazy(()=>import('./slider'))
+// export const radio = lazy(()=>import('./radio'))
