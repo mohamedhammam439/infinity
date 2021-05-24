@@ -4,6 +4,7 @@ import * as components from '../screens/components';
 import {get, map, omit} from 'lodash';
 // import './styles/theme.module.scss'
 import csss from './styles/red.scss'
+console.log('from main', csss , csss.text)
 
 
 export default class MasterComponent extends Component {
