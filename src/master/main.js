@@ -4,7 +4,6 @@ import * as components from '../screens/components';
 import {get, map, omit} from 'lodash';
 
 export default class MasterComponent extends Component {
-  
   renderComponents = (d, type) => {
     const {wraps, comp} = d;
     const MainComp = get(components, comp?.type || type);
