@@ -9,7 +9,7 @@ export default class text extends Component {
     const style = (style_fun && applyFilters(style_fun, undefined, {props: this.props})) || styles?.text
     // console.log(value)
     return (
-      <Text className={className?.text} {...extraProps}>
+      <Text style={style} {...extraProps}>
         {value}
       </Text>
     )

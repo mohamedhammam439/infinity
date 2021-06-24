@@ -2,23 +2,11 @@ import React, {Component, Suspense, Fragment} from 'react';
 import Wrapper from '../_helpers/wrap';
 import * as components from '../screens/components';
 import {get, map, omit} from 'lodash';
-// import './styles/theme.module.scss'
-import csss from './styles/red.scss'
-
 
 export default class MasterComponent extends Component {
-  state={}
-  constructor(props){
-    super(props);
-    if(props.css){
-      this.state.className = require(`./styles/${props.css}.module.scss`)
-      // import(`./styles/${props.css}.module.scss`).then(d=>console.log(d) )
-      console.log('from main', csss , csss.text)
-    }
-  }
+  
   renderComponents = (d, type) => {
     const {wraps, comp} = d;
-    // console.log(comp)
     const MainComp = get(components, comp?.type || type);
     if (MainComp) {
       return this.wrapComp(wraps, MainComp, d, type);
@@ -33,7 +21,7 @@ export default class MasterComponent extends Component {
         {(props) => {
           return (
             <Suspense fallback={<Fragment></Fragment>}>
-              <MainComp {...{...(mainProps.props || mainProps), ...data, ...props, MasterComponent, className:this.state.className}} />
+              <MainComp {...{...(mainProps.props || mainProps), ...data, ...props, MasterComponent}} />
             </Suspense>
           );
         }}

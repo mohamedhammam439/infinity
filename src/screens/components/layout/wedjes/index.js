@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { View } from "react-native";
-import { omit } from "lodash";
+import { omit , get } from "lodash";
 import omits from "_helpers/data/mainProps.js";
 import applyFilters from "_helpers/functions/filters";
-import data from "E:/Web Developing/Work-Projects/citrena/src/store/init/wedjes/card1"
+import data from "store/init/wedjes/card1"
 
 export default class Wedjes extends Component {
   constructor(props) {
     super(props)
-    this.comp = applyFilters({ key: "wedjes", data: data.card1 }, props.data)
-    // console.log(this.comp)
+    this.comp = applyFilters({ key: "wedjes", data: get(data, props.type, data.card1) }, props.data)
+    console.log('from wedjes',this.comp)
   }
   renderComps(comps) {
     const { MasterComponent } = this.props;
